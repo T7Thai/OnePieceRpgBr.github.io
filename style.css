@@ -1,0 +1,466 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #24252a;
+    align-items: center;
+    box-shadow: 1px 1px 4px;
+    height: 70px;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+
+
+
+.imglogo{
+height: 50px;
+}
+
+.logo h1{margin-top: -50px;
+    margin-left: 50px;
+color: white;
+
+}
+
+nav li{
+    display: inline-block;
+}
+
+.navegaçao,.navegaçao a{ margin-top: -10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.Raças{
+    margin-left: -200px;
+    position: absolute;
+}
+
+.Classes{margin-left: -70px;
+    position: absolute;
+}
+
+
+.Raças:hover .MenuRaça,.Classes:hover .MenuClasse{
+    display: block;
+}
+
+.MenuRaça, .MenuClasse{margin-top: 20px;
+    display: none;
+}
+.MenuRaças a ,.MenuClasses a{
+ 
+    background-color: #24252a;
+    text-align: center;
+    width: 100px;
+    margin-left: -40px;
+    padding:10px;
+    display:block;
+    margin-top: 1px;
+
+}
+.MenuRaças a:hover, .MenuClasses a:hover{
+        background-color: #3CB8E6;
+}
+
+
+
+
+
+.topo{background-color: #0075a0;
+    padding: 10PX 1px;
+    border-radius: 100%;
+    position: fixed;
+    top: 80%;
+    right: 10px;
+    width: 60px;
+    margin-top:100px;
+}
+.topo:hover{
+    background-color: #01b5f7;
+}
+
+.seta{
+    right: 10px;
+    width: 60px;
+
+}
+
+.caixa2 table{
+    margin-left: -40px;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+.caixa2 td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.tr1{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.caixas{
+    margin-top: 50px;
+}
+
+.caixas1{
+    margin-top: 100px;
+}
+
+.caixas2{
+    margin-top: 25px;
+}
+
+
+
+
+
+.caixa1{
+    border: solid 1px #24252a;
+    border-radius: 15px;
+    background-color: #FFEBCD;
+    margin: auto ;
+    padding: 20px 20px ;
+    max-width: 400px;
+}
+
+.caixa2{ border: solid 1px #24252a;
+    border-radius: 15px;
+    background-color: #FFEBCD;
+    margin: auto ;
+    padding: 20px 200px ;
+    max-width: 400px;
+  
+}
+
+.caixa3{
+    border: solid 1px #24252a;
+    border-radius: 15px;
+    background-color: #ecd1a8;
+    margin-top: -200px;
+    margin-left: -150px;
+    padding: 20px 230px ;
+
+}
+
+
+
+
+
+
+
+
+.luffy{
+    height: 300px;
+    left: 300px;
+    margin-left: 330px;
+}
+
+.garp{
+    height: 500px;
+    left: 500px;
+    margin-left: -100px;
+}
+
+.raileigh{
+    height: 500px;
+    left: 500px;
+    margin-left: 50px;
+}
+
+.bb{
+    height: 500px;
+    left: 500px;
+    margin-left: 100px;
+}
+
+.boahancock{
+    height: 500px;
+    left: 500px;
+    margin-left: 140px;
+}
+
+.homempeixe{
+    height: 500px;
+    left: 500px;
+    margin-left: -100px;
+}
+
+.arlong{
+    height: 500px;
+    left: 500px;
+    margin-left: 50px;
+}
+
+.kuroobi{
+    height: 500px;
+    left: 500px;
+    margin-left: 70px;
+}
+
+.hatchan{
+    height: 500px;
+    left: 500px;
+    margin-left: 70px;
+}
+
+.chew{
+    height: 500px;
+    left: 500px;
+    margin-left: -120px;
+}
+
+.alladin{
+    height: 500px;
+    left: 500px;
+    margin-left: -100px;
+}
+
+.enel{
+    height: 500px;
+    left: 500px;
+    margin-left: -100px;
+}
+
+.Shandianos{
+    height: 500px;
+    left: 500px;
+    margin-left: 50px;
+}
+ .enel1{
+    height: 500px;
+    left: 500px;
+    margin-left: 50px;
+ }
+
+.Skypieanos{
+    height: 500px;
+    left: 500px;
+    margin-left: 200px;
+}
+
+.mink{
+    height: 500px;
+    left: 500px;
+    margin-left: -100px;
+}
+
+.apoo{
+    height: 400px;
+    left: 400px;
+    margin-left: -50px;
+}
+
+.pernalonga{
+    height: 500px;
+    left: 500px;
+    margin-left: 50px;
+}
+
+.braçolongo{
+    height: 500px;
+    left: 500px;
+    margin-left: 50px;
+}
+
+.pescoço{
+    height: 500px;
+    left: 500px;
+    margin-left: 50px;
+}
+
+.pudding{
+    height: 500px;
+    left: 500px;
+    margin-left: 50px;
+}
+
+.franky{
+    height: 500px;
+    left: 500px;
+    margin-left: -100px;
+}
+
+
+.mansherry{
+    height: 500px;
+    left: 500px;
+    margin-left: -100px;
+}
+
+.leo{
+    height: 500px;
+    left: 500px;
+    margin-left: 50px;
+}
+
+.automatos{
+    height: 500px;
+    left: 500px;
+    margin-left: 50px;
+}
+
+.king{
+    height: 500px;
+    left: 500px;
+    margin-left: -100px;
+}
+
+.dorry{
+    height: 500px;
+    left: 500px;
+    margin-left: -100px;
+}
+
+.kaidou{
+    height: 500px;
+    left: 500px;
+    margin-left: -100px;
+}
+
+.caesar{
+    height: 500px;
+    left: 500px;
+    margin-left: -100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: #24252a;   
+   background-image: url(imagens/fundo.jpg);
+   background-repeat:repeat-y;
+   background-size:auto;
+   background-position: center;
+   
+}
+
+h3,h4{
+    color: #4b0909;
+    margin-left: -180px;
+}
+
+
+h2{     color: #4b0909;
+   text-align: center;
+}
+p{  margin-right: -180px;
+    margin-left: -180px;
+}
+
+@media only screen and (max-width: 775px){
+
+
+
+
+.caixa3{
+    border: solid 1px #24252a;
+    border-radius: 15px;
+    background-color: #ecd1a8;
+    margin-top: 0px;
+    margin-left: -200px;
+    padding: 20px 230px ;
+}
+
+.luffy{
+    height: 300px;
+    left: 300px;
+    margin-left: 0px;
+}
+
+.garp{
+    height: 400px;
+    left: 400px;
+    margin-left: -250px;
+}
+
+.raileigh{
+    height: 300px;
+    left: 300px;
+    margin-left: -30px;
+}
+
+.bb{
+    height: 300px;
+    left: 300px;
+    margin-left: 0px;
+}
+
+.boahancock{
+    height: 300px;
+    left: 300px;
+    margin-left: 0px;
+}
+
+.homempeixe{
+    height: 300px;
+    left: 300px;
+    margin-left: -190px;
+}
+
+.arlong{
+    height: 200px;
+    left: 200px;
+    margin-left: 0px;
+}
+
+.kuroobi{
+    height: 350px;
+    left: 350px;
+    margin-left: 0px;
+}
+
+.hatchan{
+    height: 300px;
+    left: 300px;
+    margin-left: -30px;
+}
+
+.chew{
+    height: 40px;
+    left: 40px;
+    margin-left: -300px;
+}
+
+.alladin{
+    height: 300px;
+    left: 300px;
+    margin-left: -200px;
+}
+
+}
